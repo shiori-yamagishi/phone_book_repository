@@ -40,7 +40,7 @@ public class PhoneBookController {
 		BeanUtils.copyProperties(searchForm, phoneBook);
 
 
-		//customerService.insert(phoneBook));
+		//phoneBookService.insert(phoneBook));
 
 		return "redirect:/";
 	}
