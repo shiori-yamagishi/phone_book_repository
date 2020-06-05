@@ -1,0 +1,20 @@
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>登録者一覧</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>名前</th>
+            <th>電話番号</th>
+        </tr>
+        <tr th:each="phone_book : ${phoneBook}">
+            <td th:text="${phone_book.id}"></td>
+            <td th:text="${phone_book.name}"></td>
+            <td th:text="${phone_book.email}"></td>
+        </tr>
+    </table>
+</body>
+</html>
