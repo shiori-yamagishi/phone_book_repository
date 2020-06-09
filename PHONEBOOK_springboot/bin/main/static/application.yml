@@ -1,6 +1,0 @@
-spring:
-  datasource:
-    url: jdbc:postgresql://localhost:5432/phonebook
-    username: postgres
-    password: bitworld
-    driverClassName: org.postgresql.Driver
